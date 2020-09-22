@@ -1,0 +1,162 @@
+.connexion {
+  background-color: #4285fa;
+  color: white;
+  width: 100px;
+  height: 32px;
+  margin-top: -5px;
+  font-size: 16px;
+  border: none;
+}
+
+.nav{
+  justify-content : flex-end ;
+  margin:15px 5px;
+  padding: 10px;
+}
+
+.gris{
+  color:#444;
+}
+.mainDiv{
+
+ flex-direction: column;
+ margin-top: -15px;
+
+}
+
+.mainUl{
+ display: flex;
+ flex-direction: column;
+
+
+}
+
+.googleDiv{
+  flex-direction: row;
+  opacity: 0.98;
+
+}
+
+li{
+  padding: 0 10px;
+}
+
+ul{
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+
+}
+
+div{
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.index
+{
+  display: flex;
+  align-items: flex-end;
+  margin-left: -55px;
+  margin-bottom: 10px;
+
+}
+.searchbar{
+
+
+ border:none;
+ margin:40 40 40 15;
+ padding:0;
+ display:flex;
+ height:30px;
+ width : 500px;
+ font-size:16px
+}
+
+.searchDiv {
+
+
+ display:flex;
+ border:1px solid #ccc;
+ box-shadow:none;
+ border-radius:25px;
+ height:45px;
+ margin:18 18 18 0 ;
+ margin-left: -2;
+
+}
+
+.searchDiv:hover{
+  box-shadow: 0.5px .5px 1px 2px #eee;
+}
+
+.searchLogo{
+ margin: 3 0 0 10;
+}
+.boutonsDiv{
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  margin: 15px;
+  margin-left: -50px;
+}
+.deuxBoutons{
+
+  height: 30px;
+  width:150px;
+  background-color: rgba(200,200,200,.2);
+  border: none;
+  color: rgba(0,0,0,.7);
+  border-radius: 5%;
+}
+
+.deuxBoutons:hover{
+
+  box-shadow: 1.2px 1.2px 1.2px 1.2px #ccc;
+
+}
+
+.footerDiv{
+  display: flex;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.footers
+{border-color: rgba(0,0,0,0.1);
+  background-color: #eee;
+  height: 40px;
+  width: 100%;
+  border-style: solid none none none;
+  color: #888;
+  border-width: thin;
+  font-size: 16px;
+}
+.footerUn{
+
+ margin: 30 20;
+}
+
+.basGauche{
+padding: 0;
+margin: -10;
+display: flex;
+justify-content: flex-start;
+align-content: flex-start;
+}
+
+.basDroite{
+ position: absolute;
+ right:20;
+}
+
+.pad{
+  padding: 0 15;
+  color: #888;
+  text-decoration: none;
+}
